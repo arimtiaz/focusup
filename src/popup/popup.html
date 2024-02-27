@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusUp Popup</title>
+  <!-- You can include any necessary stylesheets or meta tags here -->
+</head>
+<body>
+  <!-- This is the container where your React app will be rendered -->
+  <div id="popup-container"></div>
+
+  <!-- Include the React bundle and mount your component -->
+  <script src="/build/static/js/main.e8494e62.js"></script>
+  <script>
+    // Mount your React component onto the #popup-container element
+    ReactDOM.render(
+      React.createElement(Popup),
+      document.getElementById('popup-container')
+    );
+  </script>
+</body>
+</html>
