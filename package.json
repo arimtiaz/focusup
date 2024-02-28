@@ -13,6 +13,7 @@
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
+    "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -44,7 +45,8 @@
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.35",
-    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.0.1",
+    "postcss-loader": "^8.1.0",
     "prettier": "^2.8.3",
     "react-refresh": "^0.14.0",
     "react-refresh-typescript": "^2.0.7",
