@@ -7,9 +7,9 @@ const Popup = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Gs</h1>
+      <h1>Hello World</h1>
+      <p>Na Na</p>
       </header>
-      <p>No Block & All</p>
     </div>
   );
 };
